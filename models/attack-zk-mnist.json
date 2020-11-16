@@ -1,0 +1,153 @@
+{
+  "num_attacks": 12,
+  "configs0": {
+    "attack": "fgsm",
+    "description": "FGSM_eps0.07",
+    "eps": 0.07,
+    "distribution": {
+      "num_samples": 1000,
+      "transformation": "rotation",
+      "min_angle": -45,
+      "max_angle": 45
+    }
+  },
+
+  "configs1": {
+    "attack": "fgsm",
+    "description": "FGSM_eps0.10",
+    "eps": 0.10,
+    "distribution": {
+      "num_samples": 1000,
+      "transformation": "rotation",
+      "min_angle": -45,
+      "max_angle": 45
+    }
+  },
+
+  "configs2": {
+    "attack": "fgsm",
+    "description": "FGSM_eps0.15",
+    "eps": 0.15,
+    "distribution": {
+      "num_samples": 1000,
+      "transformation": "rotation",
+      "min_angle": -45,
+      "max_angle": 45
+    }
+  },
+
+  "configs3": {
+    "attack": "fgsm",
+    "description": "FGSM_eps0.20",
+    "eps": 0.20,
+    "distribution": {
+      "num_samples": 1000,
+      "transformation": "rotation",
+      "min_angle": -45,
+      "max_angle": 45
+    }
+  },
+
+  "configs4": {
+    "attack": "fgsm",
+    "description": "FGSM_eps0.25",
+    "eps": 0.25,
+    "distribution": {
+      "num_samples": 1000,
+      "transformation": "rotation",
+      "min_angle": -45,
+      "max_angle": 45
+    }
+  },
+
+  "configs5": {
+    "attack": "fgsm",
+    "description": "FGSM_eps0.30",
+    "eps": 0.30,
+    "distribution": {
+      "num_samples": 1000,
+      "transformation": "rotation",
+      "min_angle": -45,
+      "max_angle": 45
+    }
+  },
+
+  "configs6": {
+    "attack": "pgd",
+    "description": "PGD_eps0.07",
+    "eps": 0.07,
+    "distribution": {
+      "num_samples": 500,
+      "transformation": "gaussian_noise",
+      "eta": 0.03,
+      "clip_min": 0.0,
+      "clip_max": 1.0
+    }
+  },
+
+  "configs7": {
+    "attack": "pgd",
+    "description": "PGD_eps0.10",
+    "eps": 0.10,
+    "distribution": {
+      "num_samples": 500,
+      "transformation": "gaussian_noise",
+      "eta": 0.03,
+      "clip_min": 0.0,
+      "clip_max": 1.0
+    }
+  },
+
+  "configs8": {
+    "attack": "pgd",
+    "description": "PGD_eps0.15",
+    "eps": 0.15,
+    "distribution": {
+      "num_samples": 500,
+      "transformation": "gaussian_noise",
+      "eta": 0.03,
+      "clip_min": 0.0,
+      "clip_max": 1.0
+    }
+  },
+
+  "configs9": {
+    "attack": "pgd",
+    "description": "PGD_eps0.20",
+    "eps": 0.20,
+    "distribution": {
+      "num_samples": 500,
+      "transformation": "gaussian_noise",
+      "eta": 0.03,
+      "clip_min": 0.0,
+      "clip_max": 1.0
+    }
+  },
+
+  "configs10": {
+    "attack": "pgd",
+    "description": "PGD_eps0.25",
+    "eps": 0.25,
+    "distribution": {
+      "num_samples": 500,
+      "transformation": "gaussian_noise",
+      "eta": 0.03,
+      "clip_min": 0.0,
+      "clip_max": 1.0
+    }
+  },
+
+  "configs11": {
+    "attack": "pgd",
+    "description": "PGD_eps0.30",
+    "eps": 0.30,
+    "distribution": {
+      "num_samples": 500,
+      "transformation": "gaussian_noise",
+      "eta": 0.03,
+      "clip_min": 0.0,
+      "clip_max": 1.0
+    }
+  }
+
+}
